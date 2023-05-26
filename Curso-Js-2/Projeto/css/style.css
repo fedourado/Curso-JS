@@ -1,0 +1,184 @@
+body {
+    background-color: #81b8c1;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    @font-face {
+        font-family: 'Montserrat';
+        src: url('../font/Montserrat/Montserrat-Medium.ttf') format('truetype');
+        font-weight: medium;
+    }
+    font-family: 'Montserrat';
+}
+
+#title {
+    position: relative;
+    font-size: 60px;
+    color: #f3d9e2;
+    top: 40px;
+    
+}
+
+#test-list-container {
+    position: relative;
+    top: 30px;
+}
+
+
+#tasks-container {
+    position: relative;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    top: 100px;
+}
+
+.text {
+    position: relative;
+    left: 25px;
+    color: #FFFF
+}
+
+
+/* form */
+
+#tasks-header {
+    margin-top: 45px;
+}
+
+#add-task-form {
+    position: relative;
+}
+
+#add-task-form input {
+    box-sizing: border-box;
+    background: white;
+    color: #2d2d2d;
+    border: none;
+    padding: 14px;
+    font-size: 18px;
+    width: 100%;
+}
+
+#add-task-form input:focus {
+    outline: none;
+}
+
+
+#add-btn {
+    position: absolute;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    transition: .5s;
+    width: 52px;
+    height: 49px;
+    margin-left: 2px;
+    top: 0;
+    padding-top: 3px;
+}
+
+
+#add-btn:hover {
+    background-color: #e891ad;
+    color: #FFF;
+}
+
+
+ion-icon {
+    font-size: 25px;
+}
+
+
+
+/* tasks conteiner */
+
+#task-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+#task-list li {
+    text-align: left;
+    height: 50px;
+    line-height: 50px;
+    width: 434px;
+    position: relative;
+    background-color: #FFF;
+    color: #e66ab0;
+    margin-bottom: 10px;
+    padding-left: 15px;
+    transition: .5s;
+}
+
+#task-list li span {
+    font-size: 17px;
+}
+
+#task-list ion-icon {
+    position: absolute;
+    top: 0;
+    height: 40px;
+    transition: .5s;
+    cursor: pointer;
+    width: 30px;
+    padding: 5px;
+}
+
+
+.btn-li-check {
+    position: absolute;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    transition: .5s;
+    width: 51px;
+    height: 50px;
+    left: 449px;
+    margin-left: 2px;
+    top: 0;
+    padding-top: 3px;
+}
+
+.btn-li-remove {
+    position: absolute;
+    background-color: #ffffff;
+    transition: .5s;
+    border: none;
+    cursor: pointer;
+    width: 51px;
+    height: 50px;
+    left: 502px;
+    margin-left: 2px;
+    top: 0;
+    padding-top: 3px;
+}
+
+.btn-li-check:hover {
+    background-color: #71c590;
+    color: #ffffff;
+}
+
+.btn-li-remove:hover {
+    background-color: #f79c9c;
+    color: #ffffff;
+}
+
+.check-btn {
+    left: 6px;
+}
+
+.remove-btn {
+    left: 6px;
+}
+
+.hide {
+    display: none;
+}
+
+#task-list li.done {
+    background-color: #ebabc0;
+    color:#FFF;
+    text-decoration: line-through;
+}
+

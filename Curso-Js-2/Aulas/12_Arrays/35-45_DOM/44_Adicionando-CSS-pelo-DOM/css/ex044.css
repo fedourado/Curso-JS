@@ -1,0 +1,28 @@
+h1 {
+    color: purple;
+}
+
+.text {
+    color: rgba(255, 255, 255, 0.832);
+    font-family: 'Trebuchet MS';
+}
+
+#btn_click {
+    border: none;
+    border-radius: 20px;
+    padding: 15px;
+    width: 130px;
+    background: rgb(39, 36, 36);
+    color: white;
+    font: 15px arial;
+}
+
+#btn_click:hover {
+    border: none;
+    border-radius: 20px;
+    padding: 15px;
+    width: 130px;
+    background: rgb(248, 143, 137);
+    color: fff;
+    font: 15px arial;
+}

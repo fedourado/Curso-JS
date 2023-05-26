@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Do-to List</title>
+    <link rel="icon" type="image/x-icon" href="./favicon.png">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+    <header>
+        <h1 class="text" id="title">DO-TO LIST</h1>
+    </header>
+
+    <div id="tasks-container">
+        <div id="tasks-hearder">
+            <h2 class="text" id="titulo1-tarefa">Salve a sua próxima tarefa:</h2>
+            <form action="" id="add-task-form">
+                <input type="text" id="task-title" placeholder="Digite uma tarefa">
+                <button id="add-btn" type="submit">
+                    <ion-icon name="add-outline"></ion-icon>
+                </button>
+            </form>
+        </div>
+        <div id="test-list-container">
+            <h2 class="text" id="tarefas-salvas">Estas são as suas tarefas:</h2>
+
+            <ul id="task-list">
+
+                <li class="task-box template hide">
+                    <span class="task-title"></span>
+                    <button class="btn-li-check">
+                        <ion-icon class="check-btn" name="checkmark-outline"></ion-icon>
+                    </button>
+                    <button class="btn-li-remove">
+                        <ion-icon class="remove-btn" name="close-outline"></ion-icon>
+                    </button>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+   
+
+    <script src="./js/script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+</body>
+</html>
